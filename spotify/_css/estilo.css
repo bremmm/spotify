@@ -1,0 +1,194 @@
+
+
+.navbar-inverse {
+    
+    background-color: rgba(0,0,0,0.86);
+    border: none;
+}
+
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #1ed760;
+}
+
+
+a.btn.btn-default.navbar-btn{
+    border-color: #262626;
+    background-color: #262626;
+    color: #9d9d9d;
+    margin-top: 24px;
+}
+a.btn.btn-default.navbar-btn:hover{
+    border-color: #262626;
+    background-color: #1ed760;
+    color: white;
+}
+
+
+
+div.navbar-header
+{
+    height: 80px;
+}
+
+button.navbar-toggle.collapsed:hover,
+button.navbar-toggle.collapsed:focus
+{
+    background-color: #1ed760;
+    border: none;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #262626;
+    margin-top: 21px;
+}
+
+div.carousel-inner{
+    margin-top: 0px;
+}
+
+.glyphicon.glyphicon-chevron-right,
+.glyphicon.glyphicon-chevron-left{
+    color: #1ed760;
+}
+
+div.row{
+    background-color: #262626;
+    color: #929292;
+}
+
+div.footer-copyright{
+    background-color: #1e1e1e;
+    color: 929292
+}
+
+
+a{
+    color: #929292;
+}
+a:hover{
+    color: #1ed760;
+    text-decoration: none;
+}
+.carousel-indicators li{
+    background-color: #262626;
+    border: none;
+}
+
+
+
+.carousel-indicators .active {
+    background-color: #1ed760;
+}
+
+
+.btn button{
+    color: white;
+    background-color: #1ed760;
+    margin-bottom: 350px;
+    font-family: 'Raleway', sans-serif;
+    
+    
+}
+
+@media (max-width: 900px){
+    .btn button{
+        margin-bottom: 20px;
+        width: 140px;
+        font-size: 90%;
+    }
+}
+
+.btn button:hover{
+    background-color: #43d678;
+    color: white;
+}
+
+div.modal-body{
+    background-color: #393939;
+    border-color: #929292 ;
+}
+header.modal-header{
+    background-color: #1e1e1e;
+}
+
+.modal12{
+     margin-top: 83px;
+     margin-left: 980px;
+    border-radius: 20px;
+    
+    
+}
+
+@media (max-width: 900px){
+    .modal12{
+       margin-top: 83px;
+       margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media (min-width: 1900px){
+    .modal12{
+        margin-top: 83px;
+        margin-left: 1250px;
+    }
+}
+
+
+footer.modal-footer{
+    background-color: #1e1e1e
+}
+
+button.btn.btn-secondary.btn-sm{
+    border-color: #262626;
+    background-color: #262626;
+    color: #9d9d9d;
+}
+
+button.btn.btn-secondary.btn-sm:hover{
+    border-color: #262626;
+    background-color: #1ed760;
+    color: white;
+}
+h3#meuModalLabel{
+    font-size: 25
+}
+h1{
+    font-size: 500%;
+}
+
+@media (max-width: 900px){
+    h3{
+        font-size: 95%;
+    }
+    h1{
+        font-size: 210%;
+    }
+    div.carousel-inner{
+        margin-top: 80px;
+    }
+    
+}
+
+input#imp.form-control{
+    margin: 5px;
+    border-radius: 11px;
+}
+
+label.form-check-label{
+   font-size: 14px;
+}
+
+input#gridCheck1.form-check-input{
+    margin-left: 8px;
+}
+
+label.custom-control-label{
+   color: #929292;
+}
+
+form.form-horizontal{
+    margin-bottom: -5px;
+}
